@@ -26,7 +26,7 @@ program open_quartic
    real(dp) :: delta, closure_sum, integral
    integer  :: i, traj
 
-   ! V(x)=x**4/4; m=hbar=k_B=1.
+   ! V(x)=x**2/2+x**4/4; m=hbar=k_B=1.
    ! P-1 springs, no closing spring.
    call random_seed()
    do i = 1, ngrid
@@ -78,7 +78,7 @@ contains
       real(dp) :: spring
       integer :: j
 
-      f = -q**3
+      f = -q-q**3
       do j = 1, size(q)-1
          spring = (q(j+1) - q(j))/beta_n**2
          f(j)   = f(j)   + spring
