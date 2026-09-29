@@ -7,7 +7,7 @@ program Exact_quartic
    ! ./Exact_quartic
 
    integer,  parameter :: dp = real64
-   integer,  parameter :: nbasis = 60           ! Harmonic oscillator basis states
+   integer,  parameter :: nbasis = 60           ! Harmonic oscillator basis states, 5 is enough, we used 60 here is more than needed.
    integer,  parameter :: ngrid = 401
    real(dp), parameter :: pi = 3.14159265358979323846_dp
    real(dp), parameter :: temp = 0.125_dp
