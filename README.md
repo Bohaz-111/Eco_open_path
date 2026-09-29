@@ -3,7 +3,7 @@
 Fortran codes and accompanying notes for calculating the equilibrium momentum distribution of a one-dimensional anharmonic oscillator with Hamiltonian
 
 $$
-H =\frac{p^2}{2}+\frac{q^2}{2}+\frac{q^4}{4}, \qquad m=\hbar=k_B=1.
+\hat{H} =\frac{\hat{p}^2}{2}+\frac{\hat{q}^2}{2}+\frac{\hat{q}^4}{4}, \qquad m=\hbar=k_B=1.
 $$
 
 This project explores an open-path extension of the frequency-fitting approach in Zeng and Manolopoulos, [*Economised path integrals* (2026)](https://arxiv.org/abs/2607.06414), using the open-path formulation of Kapil, Cuzzocrea and Ceriotti, [*The Anisotropy of the Proton Momentum Distribution in Water* (2018)](https://arxiv.org/abs/1805.01193). Readers are assumed to be familiar with both papers and have basic experience with molecular dynamics.
