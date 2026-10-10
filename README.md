@@ -21,7 +21,7 @@ This project explores an open-path extension of the frequency-fitting approach i
 | File                                      | Contents                                                     |
 | ----------------------------------------- | ------------------------------------------------------------ |
 | `P1_Open_path.pdf`                        | Derives the open-path momentum estimator, including the Gaussian endpoint kernel and normalisation. |
-| `P2_Cholesky_factorisation.pdf`           | Explains Cholesky factorisation in Dirac notation.           |
+| `P2_Cholesky_factorisation.pdf`           | Provide a proof of Cholesky factorisation in Dirac notation.           |
 | `P3_Cholesky_Solve.pdf`                   | Derives the factorisation algorithm and forward/back substitution used to solve the fitting equations. |
 | `P4_Levenberg_Marquardt_least_square.pdf` | Develops nonlinear least squares, Gauss–Newton and Levenberg–Marquardt, explaining the damping used in the frequency fit. |
 | `P5_Quantum_benchmark.pdf`                | Derives the harmonic-basis Hamiltonian, momentum-space recurrence and thermal momentum distribution implemented in `Exact_quartic.f90`. |
